@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span{
+            color: red;
+        }
+        .box{
+            border: 1px solid black;
+            width: 200px;
+            margin: auto;
+        }
+        .box input{
+            border: none;
+            outline: none;
+        }
+        .box img{
+            width: 10px;
+            cursor: pointer;
+        }
+    </style>
+    
+</head>
+<body>
+    <form action="/time.html" onsubmit=" return formValid()" >
+        <label for="">First Name</label>
+        <input type="text" name="fname" id="fname" ><span id="fnameerror"></span>
+        <br><br>
+        <label for="">Password</label>
+        <input type="text" name="pass" id="pass">
+        <label for="">Confirm password</label>
+        <input type="text" name="cpass" id="cpass"><span id="passerror"></span>
+        <br><br>
+        <label for="">Phone Number</label>
+        <input type="text" name="pnum" id="pnum"><span id="phoneerror"></span>
+        <input type="submit" value="Submit">
+    </form>
+
+    <br><br>
+
+    
+
+    <div class="box">
+        <input type="password" name="mypass" id="showpass">
+        <img src="/media/hide.png" alt="" onclick="showPass()" id="passimg">
+    </div>
+
+    <script>
+
+        function showPass(){
+            let password = document.getElementById("showpass")
+            if(password.type=="password"){
+                password.type = "text"
+                document.getElementById('passimg').attributes[0].value="/media/eye.png"
+            }
+            else{
+                password.type = "password"
+                document.getElementById('passimg').attributes[0].value="/media/hide.png"
+            }
+        }
+
+
+        function formValid(){
+            let x= document.getElementById('fname').value;
+            if(x==""){
+                document.getElementById('fnameerror').innerText="Please fill first name"
+                return false
+            }
+            if(x.trim()==''){
+                document.getElementById('fnameerror').innerText="Don't use space"
+                return false
+            }
+            if(x.length<5){
+                document.getElementById('fnameerror').innerText="Fist-name should be grater then 5"
+                return false
+            }
+
+            let password= document.getElementById('pass').value;
+            let confirmPassword = document.getElementById('cpass').value;
+
+            if(password!==confirmPassword){
+                document.getElementById("passerror").innerText="Password not match"
+                return false
+            }
+            if(password==''){
+                document.getElementById("passerror").innerText="Enter password"
+                return false
+            }
+            if(password.length<5){
+                document.getElementById("passerror").innerText="Password should br greater than 5"
+                return false
+            }
+
+            let phoneNum = document.getElementById('pnum').value;
+           
+            if(phoneNum!==10){
+                document.getElementById("phoneerror").innerText="Please Enter 10 digit number"
+                return false
+            }
+            
+            
+        }
+
+
+        
+    </script>
+</body>
+</html>

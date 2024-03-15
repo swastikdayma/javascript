@@ -1,0 +1,302 @@
+ Introduction of Javascript (1.5hr)
+o	Introduction to JS
+o	What is JS?
+o	How JS works?
+o	Latest version of JS.
+o	About V8 engine.
+o	Installation of nodeJS in localmachine
+o	Why nodejs is required ?
+o	Single thread in JS.
+o	First JS program.
+o	How to log result in console(browser)
+o	Variables in JS
+o	Var
+o	Let 
+o	Const
+o	Difference between above variable declaration method.
+o	Exercise on variable declaration.
+o	Datatypes in JS
+o	String
+o	Number 
+o	Boolean
+o	Array
+o	Object
+
+
+
+
+
+
+
+
+ Arithmetic & conditional operator in Javascript (1.5hr)
+o	JS arithmetic
+o	JS operators
+o	JS assignments
+o	Functions in JS
+o	Arrow function 
+o	Function keywords
+o	Diff between == & ===
+o	Typeof keyword in JS
+o	Introduction condition operators.
+o	If else
+o	Switch 
+o	While 
+o	Do while
+o	Ternary operator
+o	Exercise 
+o	Let create simple calculator
+	Addition 
+	Subtraction
+	Multiplication
+	Division
+
+
+
+
+
+
+
+
+
+
+
+
+ Arithmetic & conditional operator in JavaScript(strings) (1.5hr)
+o	JS Strings methods
+o	.length
+o	.slice
+o	.trim
+o	.trimStart
+o	.trimEnd
+o	.replace
+o	.replaceAll
+o	.split
+o	.charAt
+o	.concat
+o	ToUpperCase()
+o	ToLowerCase
+o	.includes
+o	.match
+o	.matchAll
+o	.lastIndexOf
+
+o	String Template
+o	For loop for strings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Arrays in JS (1.5hr)
+o	What is array?
+o	Index in array
+o	Different type of arrays in js
+o	[1,2,3]
+o	[1,”abc”,2]
+o	Introduction of new keyword in JS
+o	Array methods
+o	.length
+o	.toString
+o	.pop
+o	.push
+o	.shift
+o	.unshift
+o	.join
+o	.delete
+o	.concat
+o	.splice
+o	.slice
+o	.sort
+
+o	Iteration in array
+o	ForEach
+o	For loop
+o	Advance of array methods
+o	.filter
+o	.map
+o	.reduce
+
+
+
+
+
+
+
+
+
+
+
+ JS Numbers & JS objects (1.5hr)
+o	JS numbers
+o	IsNan()
+o	.toString()
+o	New Number()
+o	Float
+o	Bigint
+o	.toFixed()
+o	.toPrecision()
+o	.parseFloat()
+o	.parseInt()
+
+o	JS objects
+o	Object.keys
+o	Object.values
+o	Accessing value 
+o	Nested objects
+o	Function in objects
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ JS Dates, boolean, Math (1.5hr)
+o	JS Date
+o	New Date()
+o	All date methods 
+o	.getMonth
+o	.getDate()
+o	.getTime()
+o	etc
+o	Introduction of epoch time and epoch website
+o	JS Boolean
+o	True 
+o	False
+o	!
+o	!!
+o	JS Math methods 
+o	Math.PI
+o	.SQRT
+o	.LN2
+o	.SQRT1_2
+o	.LN10
+o	.LOG2E
+o	.round
+o	.ceil
+o	.floor
+o	.trunc
+
+
+
+
+
+
+
+
+
+
+
+ Exercises on JS (1.5hr)
+
+o	Sets in JS.
+o	Completing above topics if remaining.
+o	Exercise 
+	Code to generate random id unique every time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Advance topic on JS (1.5hr)
+
+o	JS Events
+o	Onclick
+o	Onchange
+o	Onkeyup
+o	On keydown
+o	Onselect
+o	JS methods
+o	Export in JS
+o	Modules in JS
+
+o	What is JSON data?
+o	Why JSON ?
+
+o	JS classes
+o	What are classes in JS?
+o	How we can use classes?
+o	How to create custom classes in JS.
+o	How to use these classes in JS.
+
+o	Exercise 
+o	Create counter application
+	Two button incre & decrement counter
+	Create a program where you calculate user age as per birth year and current year.
+
+o	JS async & sync functionality in JS
+o	What is asyncronous behaviour & syncronous behaviour of JS?
+o	Async functions in JS
+o	SetTimeout()
+o	Setinterval()
+o	What are promises?
+o	How promises work?
+o	Two stateof promises resolve & reject?
+o	How to handle promises?
+o	Introduction of async await & .then .catch, & try catch block.
+
+o	Exercise
+o	Create promise function 
+	Resolve promise using .then & then by async await 
+	Handle resolve and reject as per parameter passed
+
+o	Best practises:
+o	Avoid 
+	New 
+	==
+	Eval()
+	Global variable
+	Var varaible
+
+
+
+
+
+
+
+Day 36-41 – Debugging in JS
+o	Shallow copy and deep copy
+o	JSON.parse & JSON.strigify.
+o	Handling undefined & null.
+o	Pass by value 
+o	Pass by reference
+o	Comparision between all for loop which is one fastest?
+o	Introduction of inspect window to debug JS code.
+o	Sources tab introduction in google inspect window.
+o	How to debug code in chrome inspect window.
+o	How to debug code in localmachine using vscode?
+
+

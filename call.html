@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        let car1 = {
+	        car_name:"mercedes",
+	        price:"10000000",
+   
+}
+
+ let namePrice= function(key,tyres){
+	console.log(this.car_name+ " "+ this.price+" "+ key+ " "+ tyres)
+}
+
+
+let car2 ={
+	car_name:"BMW",
+	price:"12000000",
+}
+
+
+namePrice.call(car2, "mehangi", "18inches");
+namePrice.apply(car2, ["mehangi", "18inches"]);
+let car_new = namePrice.bind(car2, "mehangi", "18inches");
+console.log(car_new);
+car_new();
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        //promise creation
+//  const promiseLearn = new Promise(function(resolve,reject){
+// setTimeout(function(){
+//     console.log('swastik');
+// },2000)
+// });
+
+//promise creation second;
+
+// const promiseVari = new Promise(function(resolve,reject){
+//    setTimeout(function(){
+//     console.log('my name');
+//    resolve()
+//    },3000);
+// });
+// //promise consume
+// promiseVari.then(function(){
+//     console.log("promise consumed")
+// });
+
+//without variable;
+new Promise(function(resolve,reject){
+    setTimeout(function(){
+        console.log("promise wali class");
+        resolve()
+    },1000);
+}).then(function(){
+    console.log("consumed")
+}).catch(function(){
+    console.log('error')
+}).finally(function(){
+    console.log('finally runs always')
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//         //promise creation
+// const promiseVariable = new Promise(function(resolve, reject){
+// // async tasks
+// setTimeout(function(){
+//     let error = true;
+  
+//         console.log("promise timeout")
+ 
+ 
+//  resolve()
+// },1000)
+
+// })
+
+// //promise consumption
+// promiseVariable.then(function(){
+//  console.log("resolved")
+// })
+// .catch(function(error){
+//     console.log(error)
+// }).finally(()=> {
+//     console.log('finally the promise is resolved or either rejected')
+// })
+    </script>
+</body>
+</html>
